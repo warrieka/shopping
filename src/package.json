@@ -1,0 +1,21 @@
+{
+  "name": "game1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "phaser": "^3.24.1",
+    "proj4": "^2.6.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ../"
+  },
+  "keywords": [],
+  "author": "Kay Warrie",
+  "license": "ISC"
+}
