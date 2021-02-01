@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir ../"
+    "build": "parcel build index.html --public-url https://warrieka.github.io/shopping/ --out-dir ../"
   },
   "keywords": [],
   "author": "Kay Warrie",
